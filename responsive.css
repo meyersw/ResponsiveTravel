@@ -6,20 +6,17 @@
     Filename: responsive.css
 */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     div#container {
         columns: 2;
     }
-    footer{
-        display: none;
-    }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     div#container {
         columns: 1;
     }
-    footer{
+    img {
         display: none;
     }
 }

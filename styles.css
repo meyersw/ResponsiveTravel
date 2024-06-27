@@ -4,7 +4,21 @@
     style sheet
     Author: William Meyers
     Filename: styles.css
+
+    color pallate
+    Very soft orange: #ecc5a2 
+    Grayish cyan: #a3b6ba 
+    Dark moderate cyan: #5e9bac 
+    Dark moderate orange: #a76e49 
+    Very dark grayish cyan: #4b5c5d
 */
+
+/* body Styles */
+
+body{
+    background-color: #ecc5a2;
+    color: #4b5c5d;
+}
 
 /* Header Styles */
 
@@ -15,6 +29,7 @@ body>header {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    color: #4b5c5d;
 }
 
 /* Footer Styles */
@@ -26,6 +41,7 @@ body>footer {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    margin-top: 20px;
 }
 
 /* Navigation Styles */
@@ -38,26 +54,50 @@ body>nav {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 body>nav a {
     padding: 20px;
     text-decoration: none;
-    color: black;
+    color: #4b5c5d;
 }
 
 body>nav a:visited {
     text-decoration: none;
-    color: black;
+    color: #4b5c5d;
 }
 
 body>nav a:hover {
     text-decoration: none;
-    color: red;
+    color: #5e9bac;
 }
 
 /* Content Styles */
 
+
 div#container {
+    width: 100%;
     columns: 3;
+}
+
+div#todo,
+div#tostay,
+div#toeat {
+    width: 100%;
+    border: 2px;
+    border-style: solid;
+    border-color: #a76e49;
+    -webkit-column-break-inside: avoid;
+}
+
+div>h1,div>h2{
+    text-align: center;
+}
+
+/* Image  Styles */
+
+img {
+    width: 100%;
 }
