@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+/*
+    style sheet
+    Author: William Meyers
+    Filename: styles.css
+*/
+
+/* Header Styles */
+
+body>header {
+    float: none;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/* Footer Styles */
+
+body>footer {
+    float: none;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/* Navigation Styles */
+
+body>nav {
+    float: none;
+    display: inline;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+body>nav a {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+body>nav a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+body>nav a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+/* Content Styles */
+
+div#container {
+    columns: 3;
+}
