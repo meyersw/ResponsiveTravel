@@ -10,10 +10,16 @@
     div#container {
         columns: 2;
     }
+    footer{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 400px) {
     div#container {
         columns: 1;
+    }
+    footer{
+        display: none;
     }
 }
