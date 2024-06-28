@@ -25,7 +25,7 @@
     div#container {
         columns: 1;
     }
-    img {
+    img{
         display: none;
     }
 }
