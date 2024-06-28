@@ -54,7 +54,7 @@ a:hover {
 /* Centered text */
 .centered {
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0px;
@@ -62,7 +62,7 @@ a:hover {
     font-size: 130%;
     width: 27%;
     background-color: #ecc5a2;
-    border-radius: 70px;
+    border-radius: 150px;
 }
 
 /* depreciated header styles replaced with text over image/*
