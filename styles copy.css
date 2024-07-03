@@ -49,7 +49,6 @@ a:hover {
     position: relative;
     text-align: center;
     color: #4b5c5d;
-    display: none;
 }
 
 /* Centered text */
@@ -65,8 +64,6 @@ a:hover {
     background-color: #ecc5a2;
     border-radius: 150px;
 }
-
-
 
 /* depreciated header styles replaced with text over image/*
 /*
@@ -142,6 +139,10 @@ div#container {
     margin-right: auto;
 }
 
+img {
+    display: none;
+}
+
 div#todo,
 div#tostay,
 div#toeat {
@@ -163,5 +164,4 @@ div>h2 {
 
 img {
     width: 100%;
-    display: none;
 }

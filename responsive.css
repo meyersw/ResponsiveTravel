@@ -6,26 +6,36 @@
     Filename: responsive.css
 */
 
+
+@media screen and (min-width: 500px) {
+    div#container {
+        columns: 2;
+    }
+
+    .headerImageAndText {
+        display: none;
+    }
+
+    img {
+        display: inline;
+    }
+}
+
 @media screen and (min-width: 900px) {
     .smallScreenHeader {
         display: none;
     }
-}
 
-@media screen and (max-width: 900px) {
-    div#container {
-        columns: 2;
-    }
     .headerImageAndText {
-        display: none;
+        display: block;
+    }
+
+    img {
+        display: inline;
+    }
+
+    div#container {
+        columns: 3;
     }
 }
 
-@media screen and (max-width: 500px) {
-    div#container {
-        columns: 1;
-    }
-    img{
-        display: none;
-    }
-}
